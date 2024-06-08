@@ -12,7 +12,6 @@
   const boxes = document.querySelector('#boxes');
   let amount = 0;
 
-  // Завдання 6 - функція createBoxes має приймати amount - кількість дівів, яку потрібно створити. В івент-ліснери потрібно передавати окремі колбеки, правильно іменовані за допомогою on або handle, а вже в них викликати функції createBoxes і destroyBoxes відповідно.
 
   input.addEventListener('input', handlerInput);
     function handlerInput(evt) {

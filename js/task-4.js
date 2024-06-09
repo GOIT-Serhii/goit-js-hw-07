@@ -9,11 +9,11 @@ function handlerSubmit(evt) {
     const { email, password } = evt.currentTarget.elements;
 
     const data = {
-        email: email.value,
-        password: password.value,
+        email: email.value.trim(),
+        password: password.value.trim(),
     }
     if (email.value.trim() === '' || password.value.trim() === '') {
-    console.log(`All form fields must be filled in`)
+    alert(`All form fields must be filled in`)
     } else {
         console.log(data) 
 }

@@ -33,7 +33,7 @@
       newBox.style.height = `${size}px`;
       newBox.style.backgroundColor = getRandomHexColor();
       newBox.style.margin = '5px';
-     
+      
       boxes.insertAdjacentElement('beforeend', newBox) 
     }
     
@@ -48,8 +48,6 @@
       input.value = '';
     }
   }
-
-
 
 
   function handlerClickDestroy() {

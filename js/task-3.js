@@ -5,9 +5,10 @@ inputUserName.addEventListener("input", handlerInput);
 
 function handlerInput(evt) {
     if (evt.currentTarget.value.trim() === '') {
-        return;
+        span.textContent = "Anonymous";
+        
     }
     else {
-        span.textContent = evt.currentTarget.value;
+        span.textContent = evt.currentTarget.value.trim();
     }
 }

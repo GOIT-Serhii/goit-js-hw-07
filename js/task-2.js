@@ -35,5 +35,10 @@ function createMarkup(arr) {
   ).join('')
 }
 
+listOfGallery.style.display = 'flex';
+listOfGallery.style.flexWrap = 'wrap';
+listOfGallery.style.gap = '24px';
+listOfGallery.style.flexBasis = 'calc((100% - 24px)/2)';
+
 
 listOfGallery.insertAdjacentHTML('afterbegin', createMarkup(images))

@@ -32,7 +32,8 @@
       newBox.style.width = `${size}px`;
       newBox.style.height = `${size}px`;
       newBox.style.backgroundColor = getRandomHexColor();
-
+      newBox.style.margin = '5px';
+     
       boxes.insertAdjacentElement('beforeend', newBox) 
     }
     

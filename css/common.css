@@ -13,9 +13,3 @@ body {
   line-height: 1.5;
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  flex-basis: calc((100% - 24px)/2);
-}
